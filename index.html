@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Psicóloga Caroliny Topanotti | Psicoterapia Online</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--bege:#F5F1EA;
+--verde-claro:#DCE9E5;
+--verde:#7A9B94;
+--verde-escuro:#5f8079;
+--marrom:#C49A6C;
+--cinza:#6B6B6B;
+--preto:#1E1E1E;
+--branco:#FFFFFF;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Inter', sans-serif;
+background:var(--bege);
+color:var(--preto);
+line-height:1.6;
+}
+
+/* HEADER */
+
+.header{
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.header-container{
+max-width:1100px;
+margin:auto;
+padding:15px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-family:'Playfair Display';
+font-size:20px;
+}
+
+.header-buttons{
+display:flex;
+gap:15px;
+}
+
+/* BOTÕES */
+
+.btn{
+padding:12px 24px;
+background:var(--verde);
+color:white;
+text-decoration:none;
+border-radius:8px;
+transition:.3s;
+font-weight:500;
+}
+
+.btn:hover{
+background:var(--verde-escuro);
+transform:translateY(-2px);
+}
+
+.btn-instagram{
+background:#E1306C;
+}
+
+.btn-instagram:hover{
+background:#c72c61;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:60px;
+flex-wrap:wrap;
+min-height:80vh;
+}
+
+.hero-text{
+flex:1;
+min-width:300px;
+}
+
+.hero-text h1{
+font-family:'Playfair Display';
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:18px;
+color:var(--cinza);
+margin-bottom:30px;
+}
+
+.hero-buttons{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.hero-img{
+flex:1;
+text-align:center;
+}
+
+.hero-img img{
+width:100%;
+max-width:380px;
+border-radius:16px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* SEÇÕES */
+
+.section{
+background:white;
+margin:40px auto;
+border-radius:16px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.section-content{
+display:flex;
+align-items:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.section-text{
+flex:1;
+}
+
+.section-img{
+flex:1;
+text-align:center;
+}
+
+.section-img img{
+width:100%;
+max-width:350px;
+border-radius:12px;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:30px;
+font-family:'Playfair Display';
+font-size:32px;
+}
+
+/* CARDS */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:var(--bege);
+padding:25px;
+border-radius:12px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 20px rgba(0,0,0,0.08);
+}
+
+/* CTA */
+
+.cta{
+text-align:center;
+background:var(--verde-claro);
+padding:60px 20px;
+border-radius:16px;
+}
+
+.cta h2{
+margin-bottom:15px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:40px;
+color:var(--cinza);
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero-text h1{
+font-size:34px;
+text-align:center;
+}
+
+.hero-text p{
+text-align:center;
+}
+
+.hero-buttons{
+justify-content:center;
+}
+
+.logo{
+font-size:16px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+
+<!-- HEADER -->
+
+<header class="header">
+
+<div class="header-container">
+
+<div class="logo">
+Psicóloga Caroliny Topanotti
+</div>
+
+<div class="header-buttons">
+
+<a href="https://www.instagram.com/psicarolinytopanotti" target="_blank" class="btn btn-instagram">
+Instagram
+</a>
+
+<a href="https://wa.me/48999502921" class="btn">
+Agendar
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="container hero">
+
+<div class="hero-text">
+
+<h1>Psicoterapia com acolhimento, escuta e propósito</h1>
+
+<p>
+Um espaço seguro para você compreender suas emoções e viver com mais equilíbrio.
+</p>
+
+<div class="hero-buttons">
+
+<a href="https://wa.me/48999502921" class="btn">
+Agendar consulta
+</a>
+
+<a href="https://www.instagram.com/psicarolinytopanotti" target="_blank" class="btn btn-instagram">
+Ver Instagram
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-img">
+
+<img src="imagens/psicologa.jpg">
+
+</div>
+
+</section>
+
+
+<!-- SOBRE -->
+
+<section class="container section">
+
+<h2>Sobre mim</h2>
+
+<div class="section-content">
+
+<div class="section-text">
+
+<p>
+Sou psicóloga clínica (CRP 12/22242). Ofereço um espaço acolhedor, seguro e ético para ajudar você em sua jornada emocional.
+</p>
+
+<br>
+
+<p>
+A psicoterapia permite compreender emoções, desenvolver autoconhecimento e melhorar sua qualidade de vida.
+</p>
+
+</div>
+
+<div class="section-img">
+
+<img src="imagens/fotosobremim.jpg">
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ÁREAS -->
+
+<section class="container section">
+
+<h2>Como posso te ajudar</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Ansiedade</h3>
+<p>Compreenda e controle melhor suas emoções.</p>
+</div>
+
+<div class="card">
+<h3>Autoestima</h3>
+<p>Desenvolva confiança e segurança emocional.</p>
+</div>
+
+<div class="card">
+<h3>Relacionamentos</h3>
+<p>Melhore sua relação consigo e com os outros.</p>
+</div>
+
+<div class="card">
+<h3>Autoconhecimento</h3>
+<p>Construa uma vida mais equilibrada.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="container cta">
+
+<h2>Comece sua jornada</h2>
+
+<p>Agende sua consulta pelo WhatsApp</p>
+
+<br>
+
+<a href="https://wa.me/48999502921" class="btn">
+Agendar agora
+</a>
+
+</section>
+
+
+<footer>
+
+Psicóloga Caroliny Topanotti Tramontin  
+<br>
+CRP 12/22242
+
+</footer>
+
+
+</body>
+</html>
